@@ -9,9 +9,16 @@ menu.style.padding = '5px 10px'
 menu.style.borderRadius = '5px'
 
 //clicking menu....
-function toggle() {
+function toggle(e) {
     document.querySelector('.menu-items').classList.toggle('hidden')
+    e.stopPropagation()
 }
+
+document.addEventListener('click', () => {
+    if (!document.querySelector('.menu-items').classList.contains('hidden')) {
+        document.querySelector('.menu-items').classList.add('hidden')
+    }
+})
 
 //hiding nav.......
 function x() {
