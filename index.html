@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/542efec3c5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="m-12 relative">
+        <nav class="flex flex-row justify-between">
+            <p class="font-bold">Shahin Alam</p>
+            <ul class="flex" id="nav">
+                <li class="px-2 text-sm cursor-pointer font-semibobld">Home</li>
+                <li class="px-2 text-sm cursor-pointer font-semibobld">About</li>
+                <li class="px-2 text-sm cursor-pointer font-semibobld">Project</li>
+                <li class="px-2 text-sm cursor-pointer font-semibobld">Contact</li>
+            </ul>
+            <div class='menu'>
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div
+            class="menu-items bg-zinc-400 bg-opacity-50 shadow-2xl bg-blur-lg py-3 px-3 text-right hidden absolute top-30px right-0 w-72 rounded-tl-3xl rounded-br-3xl">
+            <ul class="flex flex-col">
+                <li
+                    class="px-2 cursor-pointer hover:scale-105 hover:bg-zinc-300 hover:rounded-tl-xl hover:rounded-br-lg font-semibobld">
+                    Home</li>
+                <li
+                    class="px-2 cursor-pointer hover:scale-105 hover:bg-zinc-300 hover:rounded-tl-xl hover:rounded-br-lg font-semibobld">
+                    About</li>
+                <li
+                    class="px-2 cursor-pointer hover:scale-105 hover:bg-zinc-300 hover:rounded-tl-xl hover:rounded-br-lg font-semibobld">
+                    Project</li>
+                <li
+                    class="px-2 cursor-pointer hover:scale-105 hover:bg-zinc-300 hover:rounded-tl-xl hover:rounded-br-lg font-semibobld">
+                    Contact</li>
+            </ul>
+        </div>
+    </header>
+    <main class="m-12">
+        <section>
+            <div
+                class="lg:py-36 pb-28 flex flex-col lg:flex-row md:flex-row gap-5 flex-col-reverse  mx-auto justify-center lg:w-1/2">
+                <div class="lg:w-1/2 flex justify-center">
+                    <div>
+                        <h2 class="text-[21px] font-bold" id="title"></h2>
+                        <p class="mt-3 mb-2 text-[14px] text-[#636e72] leading-5 tracking-wide">I'm Shahin Alam. A
+                            passionate
+                            Front-End
+                            <br> React
+                            Developer.
+                        </p>
+                        <ul class="flex pb-5">
+                            <li class="pr-3 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"><i
+                                    class="fa-brands fa-linkedin"></i></li>
+                            <li class="pr-3 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"><i
+                                    class="fa-brands fa-github"></i></li>
+                        </ul>
+                        <a href="./sources//logo" download="logo.eps"
+                            class="text-[12px] font-bold text-white px-4 py-[5px] bg-gradient-to-r from-violet-500 to-fuchsia-600 rounded-lg uppercase">download
+                            cv <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 flex">
+                    <div class="overflow-hidden rounded-full">
+                        <img class="h-52 w-52 rounded-full transition duration-300 ease-in-out  hover:scale-110"
+                            src="./sources/photo/m.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="flex flex-col sm:flex-row md:flex-row lg:flex-row gap-10 py-28 justify-center">
+            <div>
+                <h2 class="text-xl font-bold">Front-End React <br> Developer</h2>
+                <p class="mt-5 mb-2 text-[14px] text-[#636e72] leading-5">I'm Shahin Alam. A passionate Front-End
+                    <br> React
+                    Developer.
+                </p>
+                <ul class="flex">
+                    <li class="pr-3"><i class="fa-brands fa-linkedin"></i></li>
+                    <li class="pr-3"><i class="fa-brands fa-github"></i></li>
+                </ul>
+            </div>
+            <div>
+                <img class="h-48 w-48  rounded-full" src="./sources/photo/bike.jpg" alt="">
+            </div>
+        </section> -->
+        <section>
+            <div>
+                <ul class="flex flex-row justify-center items-center">
+                    <li class="mr-4 text-[14px]">Tech Stack </li>
+                    <li class="pr-5">|</li>
+                    <li class="px-4 text-orange-600"><i class="text-2xl fa-brands fa-html5"></i></li>
+                    <li class="px-4 text-blue-600"><i class="text-2xl fa-brands fa-css3-alt"></i></li>
+                    <li class="px-4 text-yellow-400"><i class="text-2xl fa-brands fa-js"></i></li>
+                    <li class="px-4 text-green-600"><i class="text-2xl fa-brands fa-react"></i></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div
+                class="py-48 flex flex-col lg:flex-row md:flex-row sm:flex-row  mx-auto gap-20 justify-center lg:w-1/2">
+                <div class="lg:w-1/2 flex lg:justify-end sm:justify-center md:justify-center">
+                    <div class="relative">
+                        <img class="h-full w-full rounded-2xl" src="./sources/photo/1.jpg" alt="">
+                        <div
+                            class="h-28 w-28  rounded-full absolute -right-6 -bottom-6 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                            <div class="h-20 w-20 rounded-full bg-white absolute top-4 right-4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="">
+                        <p class="text-[14px]">About Me</p>
+                        <p class="my-2 text-[21px] font-bold">A dedicated Front-End Developer based in <br>
+                            Rajshahi,
+                            Bangladesh</p>
+                        <p class="text-[14px] text-[#636e72] tracking-wide">
+                            As a junior front-end Developer, I passed an impressive arsenal of skills in HTML, CSS,
+                            Javascript, React, Tailwind.I excel in designing and maintaining responsive websites
+                            that
+                            after a smooth user experience. My experience lies in writing clean
+                            and optimized code and utilizing cutting-edge development tools and
+                            techniques.I'm also a good team player.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
