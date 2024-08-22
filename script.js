@@ -1,6 +1,7 @@
 
 // document.querySelector('body').style.background = 'white'
 document.querySelector('body').style.background = '#dfe6e9'
+// document.querySelector('body').style.color = '#ffff'
 
 
 const myDiv = document.getElementById("nav");
